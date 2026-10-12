@@ -1,0 +1,93 @@
+@model lesson7.Models.THL_Member
+
+@{
+    ViewData["Title"] = "Thêm thành viên";
+}
+
+<h2>Thêm thành viên</h2>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+
+        <form asp-action="Create" method="post">
+
+            <div asp-validation-summary="ModelOnly"
+                 class="text-danger">
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Username"
+                       class="form-label">
+                </label>
+
+                <input asp-for="Username"
+                       class="form-control" />
+
+                <span asp-validation-for="Username"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password"
+                       class="form-label">
+                </label>
+
+                <input asp-for="Password"
+                       class="form-control" />
+
+                <span asp-validation-for="Password"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email"
+                       class="form-label">
+                </label>
+
+                <input asp-for="Email"
+                       class="form-control" />
+
+                <span asp-validation-for="Email"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Phone"
+                       class="form-label">
+                </label>
+
+                <input asp-for="Phone"
+                       class="form-control" />
+
+                <span asp-validation-for="Phone"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <button type="submit"
+                    class="btn btn-primary">
+                Tạo mới
+            </button>
+
+            <a asp-action="Index"
+               class="btn btn-secondary">
+                Quay lại
+            </a>
+
+        </form>
+
+    </div>
+</div>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync(
+            "_ValidationScriptsPartial");
+    }
+}
