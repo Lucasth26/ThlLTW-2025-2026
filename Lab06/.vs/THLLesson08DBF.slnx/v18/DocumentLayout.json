@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|c:\\users\\tran long\\documents\\web\\thllesson08dbf\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|c:\\users\\tran long\\documents\\web\\thllesson08dbf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|c:\\users\\tran long\\documents\\web\\thllesson08dbf\\models\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|solutionrelative:models\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|c:\\users\\tran long\\documents\\web\\thllesson08dbf\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A892ADFE-3CF3-C030-7513-922B740D833C}|THLLesson08DBF.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tran Long\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\buildTransitive\\net10.0\\Microsoft.EntityFrameworkCore.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:59:49.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:52:14.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookStoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Models\\BookStoreDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\BookStoreDbContext.cs",
+              "ToolTip": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Models\\BookStoreDbContext.cs",
+              "RelativeToolTip": "Models\\BookStoreDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:45:12.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Tran Long\\Documents\\WEB\\THLLesson08DBF\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:34:40.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.EntityFrameworkCore.props",
+              "DocumentMoniker": "C:\\Users\\Tran Long\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\buildTransitive\\net10.0\\Microsoft.EntityFrameworkCore.props",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\buildTransitive\\net10.0\\Microsoft.EntityFrameworkCore.props",
+              "ToolTip": "C:\\Users\\Tran Long\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\buildTransitive\\net10.0\\Microsoft.EntityFrameworkCore.props [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.12\\buildTransitive\\net10.0\\Microsoft.EntityFrameworkCore.props [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-11T20:06:48.629Z",
+              "EditorCaption": " [Read Only]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
