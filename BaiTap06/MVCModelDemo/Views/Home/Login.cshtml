@@ -1,0 +1,19 @@
+@model MVCModelDemo.Models.Login
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>User Details</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div>@Html.LabelFor(model => model.userName)</div>
+    <div>@Html.EditorFor(model => model.userName)</div>
+
+    <div>@Html.LabelFor(model => model.password)</div>
+    <div>@Html.EditorFor(model => model.password)</div>
+
+    <div><input type="submit" value="Submit" /></div>
+}
