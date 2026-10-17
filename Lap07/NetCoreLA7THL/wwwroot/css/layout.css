@@ -1,0 +1,30 @@
+body { font-family: Arial, Helvetica, sans-serif; color: #555; background: #fff; }
+a { color: #8aa9d6; text-decoration: none; }
+a:hover { color: #5d85bd; }
+.nhh-inline { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.nhh-inline li { padding: 0 12px; }
+.nhh-inline li:first-child { padding-left: 0; }
+.nhh-row0 { background: #000; color: #fff; font-size: 12px; padding: 8px 0; }
+.nhh-row0 a { color: #fff; text-transform: uppercase; }
+.nhh-row1 { padding: 20px 0; }
+.nhh-logo { font-variant: small-caps; font-size: 28px; margin: 0; }
+.nhh-logo a { color: #333; }
+.nhh-row2 { background: #8aa9d6; }
+.nhh-menu li { padding: 0; }
+.nhh-menu a { display: block; padding: 14px 18px; color: #fff; text-transform: uppercase; font-size: 13px; }
+.nhh-menu a:hover { background: #6f93c6; color: #fff; }
+.nhh-banner { height: 380px; background: #1b1b1b center / cover no-repeat; display: flex; align-items: center; }
+.nhh-banner-text { color: #fff; max-width: 620px; margin-left: 12%; }
+.nhh-banner-text h2 { font-variant: small-caps; font-size: 38px; }
+.nhh-section { padding: 50px 0; }
+.nhh-title { text-align: center; margin-bottom: 30px; }
+.nhh-heading { font-variant: small-caps; font-size: 16px; text-transform: uppercase; }
+.nhh-card { border: 1px solid #eee; padding: 20px; text-align: center; height: 100%; }
+.nhh-card img { max-width: 100%; height: 180px; object-fit: cover; margin-bottom: 12px; }
+.nhh-price { color: #c0392b; font-weight: bold; }
+.nhh-price del { color: #999; font-weight: normal; margin-right: 6px; }
+.nhh-btn { display: inline-block; background: #8aa9d6; color: #fff; padding: 6px 18px; border-radius: 3px; }
+.nhh-btn:hover { background: #6f93c6; color: #fff; }
+.nhh-row4 { background: #003366; color: #c9d6e5; padding: 40px 0 20px; }
+.nhh-row4 .nhh-heading { color: #fff; border-bottom: 1px solid #1c4d80; padding-bottom: 10px; }
+.nhh-row5 { background: #002a55; color: #9fb3cb; font-size: 12px; padding: 14px 0; }

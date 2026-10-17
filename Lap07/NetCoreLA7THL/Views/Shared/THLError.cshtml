@@ -1,0 +1,15 @@
+@* Author: THL *@
+
+@model THLErrorViewModel
+@{
+    ViewData["Title"] = "Lỗi";
+}
+<div class="thl-section">
+    <div class="container">
+        <h1 class="text-danger">Đã xảy ra lỗi.</h1>
+        @if (Model.ShowRequestId)
+        {
+            <p><strong>Request ID:</strong> <code>@Model.RequestId</code></p>
+        }
+    </div>
+</div>

@@ -1,0 +1,48 @@
+@* Author: THL *@
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<div class="row">
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-info">
+            <div class="inner">
+                <h3>@ViewBag.CategoryCount</h3>
+                <p>Danh mục</p>
+            </div>
+            <div class="icon"><i class="fas fa-list-alt"></i></div>
+            <a asp-area="Admin" asp-controller="THLCategory" asp-action="THLIndex" class="small-box-footer">Chi tiết <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-success">
+            <div class="inner">
+                <h3>@ViewBag.ProductCount</h3>
+                <p>Sản phẩm</p>
+            </div>
+            <div class="icon"><i class="fas fa-boxes"></i></div>
+            <a asp-area="Admin" asp-controller="THLProduct" asp-action="THLIndex" class="small-box-footer">Chi tiết <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-warning">
+            <div class="inner">
+                <h3>@ViewBag.BlogCount</h3>
+                <p>Blogs</p>
+            </div>
+            <div class="icon"><i class="fas fa-blog"></i></div>
+            <a asp-area="Admin" asp-controller="THLBlog" asp-action="THLIndex" class="small-box-footer">Chi tiết <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box bg-danger">
+            <div class="inner">
+                <h3>@ViewBag.BannerCount</h3>
+                <p>Banner</p>
+            </div>
+            <div class="icon"><i class="fas fa-image"></i></div>
+            <a asp-area="Admin" asp-controller="THLBanner" asp-action="THLIndex" class="small-box-footer">Chi tiết <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+</div>
+<p>Đây là nội dung trang chủ Admin</p>

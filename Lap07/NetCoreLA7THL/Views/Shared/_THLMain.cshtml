@@ -1,0 +1,89 @@
+@* Author: THL *@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>@ViewData["Title"] - Bistup THL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="~/css/layout.css" rel="stylesheet" type="text/css" media="all">
+    @await RenderSectionAsync("Css", required: false)
+</head>
+<body>
+    <div class="thl-row0">
+        <div class="container d-flex justify-content-between">
+            <ul class="thl-inline">
+                <li><a asp-area="" asp-controller="THLHome" asp-action="THLIndex">Trang chủ</a></li>
+                <li><a asp-area="" asp-controller="THLHome" asp-action="THLAbout">Giới thiệu</a></li>
+                <li><a asp-area="" asp-controller="THLHome" asp-action="THLContact">Liên hệ</a></li>
+                <li><a asp-area="Admin" asp-controller="THLDashboard" asp-action="THLIndex">Quản trị</a></li>
+            </ul>
+            <ul class="thl-inline">
+                <li>+84 (123) 456 7890</li>
+                <li>info@domain.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="thl-row1">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <div>
+                <h1 class="thl-logo"><a asp-area="" asp-controller="THLHome" asp-action="THLIndex">Bistup</a></h1>
+                <p class="mb-0">vestibulum amet</p>
+            </div>
+            <div><strong>Gọi cho chúng tôi:</strong><br>+84 (123) 456 7890</div>
+            <div><strong>Giờ làm việc:</strong><br>Thứ 2 - Thứ 7: 08:00 - 18:00</div>
+        </div>
+    </div>
+
+    <div class="thl-row2">
+        <div class="container">
+            <ul class="thl-inline thl-menu">
+                <li><a asp-area="" asp-controller="THLHome" asp-action="THLIndex">Trang chủ</a></li>
+                <li><a asp-area="" asp-controller="THLHome" asp-action="THLAbout">Giới thiệu</a></li>
+                <li><a asp-area="" asp-controller="THLHome" asp-action="THLContact">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <div class="thl-row4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="thl-heading">Nulla ullamcorper</h6>
+                    <p>Street Name &amp; Number, Town, Postcode/Zip</p>
+                    <p>+84 (123) 456 7890</p>
+                    <p>info@domain.com</p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="thl-heading">Dignissim nibh ut</h6>
+                    <p>Natoque penatibus et magnis</p>
+                    <p>Dis parturient montes</p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="thl-heading">Vestibulum cras placerat</h6>
+                    <p>Maecenas vestibulum molestie</p>
+                    <p>Arcu cras sed tincidunt</p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="thl-heading">Vulputate cum sociis</h6>
+                    <p>Diam nulla id commodo magna scelerisque ac suspendisse viverra est purus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thl-row5">
+        <div class="container d-flex justify-content-between">
+            <p class="mb-0">Copyright &copy; 2026 - All Rights Reserved - THL</p>
+            <p class="mb-0">Template by OS Templates</p>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

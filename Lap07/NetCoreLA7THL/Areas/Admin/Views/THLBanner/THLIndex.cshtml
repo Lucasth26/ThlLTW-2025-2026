@@ -1,0 +1,42 @@
+@* Author: THL *@
+
+@model IEnumerable<THLBanner>
+@{
+    ViewData["Title"] = "Danh sách banner";
+}
+<div class="card">
+    <div class="card-header">
+        <a asp-action="THLCreate" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> Thêm mới</a>
+    </div>
+    <div class="card-body table-responsive p-0">
+        <table class="table table-hover table-striped text-nowrap">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Hình ảnh</th>
+                    <th>Tên</th>
+                    <th>Ưu tiên</th>
+                    <th>Trạng thái</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@if (!string.IsNullOrEmpty(item.Image)) { <img src="@item.Image" style="height:40px" alt="" /> }</td>
+                    <td>@item.Name</td>
+                    <td>@item.Priority</td>
+                    <td>@if (item.Status == 1) { <span class="badge badge-success">Hiển thị</span> } else { <span class="badge badge-secondary">Ẩn</span> }</td>
+                    <td class="text-right">
+                        <a asp-action="THLDetails" asp-route-id="@item.Id" class="btn btn-info btn-sm" title="Chi tiết"><i class="fas fa-eye"></i></a>
+                        <a asp-action="THLEdit" asp-route-id="@item.Id" class="btn btn-warning btn-sm" title="Sửa"><i class="fas fa-edit"></i></a>
+                        <a asp-action="THLDelete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" title="Xóa"><i class="fas fa-trash"></i></a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

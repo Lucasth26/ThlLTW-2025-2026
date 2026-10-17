@@ -1,0 +1,28 @@
+@* Author: THL *@
+
+@model THLBlog
+@{
+    ViewData["Title"] = "Chi tiết blog";
+}
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+        <dt class="col-sm-3">Id</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Name)</dt>
+        <dd class="col-sm-9">@Model.Name</dd>
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Status)</dt>
+        <dd class="col-sm-9">@(Model.Status == 1 ? "Hiển thị" : "Ẩn")</dd>
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.CreatedDate)</dt>
+        <dd class="col-sm-9">@Model.CreatedDate.ToString("dd/MM/yyyy")</dd>
+        <dt class="col-sm-3">Hình ảnh</dt>
+        <dd class="col-sm-9">@if (!string.IsNullOrEmpty(Model.Image)) { <img src="@Model.Image" style="max-height:100px" alt="" /> }</dd>
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Description)</dt>
+        <dd class="col-sm-9">@Model.Description</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <a asp-action="THLEdit" asp-route-id="@Model.Id" class="btn btn-warning"><i class="fas fa-edit"></i> Sửa</a>
+        <a asp-action="THLIndex" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Quay lại</a>
+    </div>
+</div>

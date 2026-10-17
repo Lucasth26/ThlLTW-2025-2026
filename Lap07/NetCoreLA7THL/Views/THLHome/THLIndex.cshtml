@@ -1,0 +1,82 @@
+@* Author: THL *@
+
+@model THLHomeViewModel
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+@if (Model.Banners.Any())
+{
+    <div id="thlBannerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.Banners.Count; i++)
+            {
+                var banner = Model.Banners[i];
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <div class="thl-banner" style="background-image:url('@banner.Image')">
+                        <div class="thl-banner-text">
+                            <h2>@banner.Name</h2>
+                            <p>@banner.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#thlBannerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#thlBannerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+}
+else
+{
+    <div class="thl-banner">
+        <div class="thl-banner-text">
+            <p>Amet nunc et accumsan blandit</p>
+            <h2>Metus purus pharetra sit</h2>
+            <p>Tempor praesent eu orci sodales sagittis neque eget consectetur</p>
+        </div>
+    </div>
+}
+
+<div class="thl-section">
+    <div class="container">
+        <div class="thl-title">
+            <h6 class="thl-heading">Sản phẩm mới</h6>
+            <p>Danh sách sản phẩm đang hiển thị</p>
+        </div>
+        <div class="row g-4">
+            @foreach (var item in Model.Products)
+            {
+                <div class="col-md-4">
+                    <div class="thl-card">
+                        @if (!string.IsNullOrEmpty(item.Image))
+                        {
+                            <img src="@item.Image" alt="@item.Name" />
+                        }
+                        <h6 class="thl-heading">@item.Name</h6>
+                        <p class="mb-1">@item.Category?.Name</p>
+                        <p class="thl-price">
+                            @if (item.SalePrice > 0 && item.SalePrice < item.Price)
+                            {
+                                <del>@item.Price.ToString("N0")</del>
+                                <span>@item.SalePrice.ToString("N0")</span>
+                            }
+                            else
+                            {
+                                <span>@item.Price.ToString("N0")</span>
+                            }
+                        </p>
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+            }
+        </div>
+        @if (!Model.Products.Any())
+        {
+            <p class="text-center">Chưa có sản phẩm nào. Hãy thêm sản phẩm trong trang quản trị.</p>
+        }
+    </div>
+</div>
