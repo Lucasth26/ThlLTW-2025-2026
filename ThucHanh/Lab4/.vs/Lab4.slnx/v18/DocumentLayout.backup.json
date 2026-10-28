@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\views\\learner\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:views\\learner\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\views\\learner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:views\\learner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\models\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:models\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\lab4.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:lab4.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\lab4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:lab4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|d:\\web\\thlltw-2025-2026\\thuchanh\\lab4\\models\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA0A354-688C-47D7-A90F-B63B65FADF60}|Lab4.csproj|solutionrelative:models\\major.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Views\\Learner\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Delete.cshtml",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Views\\Learner\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T05:11:50.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Views\\Learner\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Create.cshtml",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Views\\Learner\\Create.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T05:02:45.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lab4",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Lab4.csproj",
+              "RelativeDocumentMoniker": "Lab4.csproj",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Lab4.csproj",
+              "RelativeToolTip": "Lab4.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-28T04:57:25.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Views\\Learner\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Index.cshtml",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Views\\Learner\\Index.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T04:55:39.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LearnerController.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Controllers\\LearnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LearnerController.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Controllers\\LearnerController.cs",
+              "RelativeToolTip": "Controllers\\LearnerController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:53:51.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lab4",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Lab4.csproj",
+              "RelativeDocumentMoniker": "Lab4.csproj",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Lab4.csproj",
+              "RelativeToolTip": "Lab4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-28T04:49:36.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dotnet-tools.json",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\dotnet-tools.json",
+              "RelativeDocumentMoniker": "dotnet-tools.json",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\dotnet-tools.json",
+              "RelativeToolTip": "dotnet-tools.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-28T04:48:24.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-28T04:47:44.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-28T04:47:43.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:42:55.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:39:09.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SchoolContext.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Data\\SchoolContext.cs",
+              "RelativeDocumentMoniker": "Data\\SchoolContext.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Data\\SchoolContext.cs",
+              "RelativeToolTip": "Data\\SchoolContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:36:56.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:36:11.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Learner.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Learner.cs",
+              "RelativeDocumentMoniker": "Models\\Learner.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Learner.cs",
+              "RelativeToolTip": "Models\\Learner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:35:35.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:35:35.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:35:34.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Major.cs",
+              "DocumentMoniker": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Major.cs",
+              "RelativeDocumentMoniker": "Models\\Major.cs",
+              "ToolTip": "D:\\WEB\\ThlLTW-2025-2026\\ThucHanh\\Lab4\\Models\\Major.cs",
+              "RelativeToolTip": "Models\\Major.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T04:31:28.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
