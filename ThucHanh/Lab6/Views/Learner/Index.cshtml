@@ -1,0 +1,59 @@
+@model IEnumerable<Learner>
+@{
+    ViewData["Title"] = "Learner List";
+    Layout = "~/Views/Shared/layout.cshtml";
+}
+
+<h1>Learner List</h1>
+@await Component.InvokeAsync("Major")
+<form id="learner-search" asp-controller="Learner" asp-action="Index" method="get" class="mb-3">
+    <input type="hidden" name="mid" value="@ViewBag.Mid" />
+    <div class="input-group w-auto d-inline-flex">
+        <input type="search" name="keyword" value="@ViewBag.Keyword" class="form-control"
+               placeholder="Search learner" aria-label="Search learner" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+<div id="content" data-filter-url="@Url.Action("LearnerFilter", "Learner")">
+    <partial name="LearnerTable" model="Model" />
+</div>
+
+@section Scripts {
+    <script>
+        const content = $("#content");
+        const search = $("#learner-search");
+        const majorInput = search.find("[name=mid]");
+        const keywordInput = search.find("[name=keyword]");
+        let pendingRequest;
+
+        function loadLearners(query, onSuccess) {
+            pendingRequest?.abort();
+            pendingRequest = $.ajax({
+                url: content.data("filter-url"),
+                data: query,
+                success: function (response) {
+                    content.html(response);
+                    onSuccess?.();
+                }
+            });
+        }
+
+        $("#major-filter a").on("click", function (event) {
+            event.preventDefault();
+            const mid = $(this).closest("li").data("major-id");
+            loadLearners({ mid, keyword: keywordInput.val() }, function () {
+                majorInput.val(mid);
+            });
+        });
+
+        search.on("submit", function (event) {
+            event.preventDefault();
+            loadLearners(search.serialize());
+        });
+
+        content.on("click", ".page-link", function (event) {
+            event.preventDefault();
+            loadLearners(this.search.slice(1));
+        });
+    </script>
+}

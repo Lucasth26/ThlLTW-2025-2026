@@ -1,0 +1,46 @@
+@model IEnumerable<Learner>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Tên</th>
+            <th>Họ</th>
+            <th>Ngành</th>
+            <th>Ngày nhập học</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var learner in Model)
+        {
+            <tr>
+                <td>@learner.LearnerID</td>
+                <td>@learner.FirstMidName</td>
+                <td>@learner.LastName</td>
+                <td>@learner.Major.MajorName</td>
+                <td>@learner.EnrollmentDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-controller="Learner" asp-action="Edit" asp-route-id="@learner.LearnerID">Edit</a> |
+                    <a asp-controller="Learner" asp-action="Delete" asp-route-id="@learner.LearnerID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<nav aria-label="Learner pages">
+    <ul class="pagination">
+        @for (int number = 1; number <= ViewBag.PageCount; number++)
+        {
+            bool isCurrent = number == ViewBag.PageIndex;
+            <li class="page-item @(isCurrent ? "active" : "")">
+                <a class="page-link" asp-controller="Learner" asp-action="Index"
+                   asp-route-mid="@ViewBag.Mid" asp-route-keyword="@ViewBag.Keyword"
+                   asp-route-pageIndex="@number" aria-current="@(isCurrent ? "page" : null)">@number</a>
+            </li>
+        }
+    </ul>
+</nav>
+
