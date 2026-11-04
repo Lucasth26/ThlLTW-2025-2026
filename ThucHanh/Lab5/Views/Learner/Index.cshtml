@@ -1,0 +1,31 @@
+@model IEnumerable<Learner>
+@{
+    ViewData["Title"] = "Learner List";
+    Layout = "~/Views/Shared/layout.cshtml";
+}
+
+<h1>Learner List</h1>
+@await Component.InvokeAsync("Major")
+<div id="content" data-filter-url="@Url.Action("LearnerByMajorID", "Learner")">
+    <partial name="LearnerTable" model="Model" />
+</div>
+
+@section Scripts {
+    <script>
+        const content = $("#content");
+        let pendingRequest;
+
+        $("#major-filter a").on("click", function (event) {
+            event.preventDefault();
+            pendingRequest?.abort();
+
+            pendingRequest = $.ajax({
+                url: content.data("filter-url"),
+                data: { mid: $(this).closest("li").data("major-id") },
+                success: function (response) {
+                    content.html(response);
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,25 @@
+@model IEnumerable<Learner>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Tên</th>
+            <th>Họ</th>
+            <th>Ngành</th>
+            <th>Ngày nhập học</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var learner in Model)
+        {
+            <tr>
+                <td>@learner.LearnerID</td>
+                <td>@learner.FirstMidName</td>
+                <td>@learner.LastName</td>
+                <td>@learner.Major.MajorName</td>
+                <td>@learner.EnrollmentDate.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
